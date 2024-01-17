@@ -6,14 +6,14 @@ use \Inertia\Inertia;
 
 Route::get('/',[WorkController::class,"home"])->name('portfolio.homeSweetHome');
 
-Route::get('trabalhos',[WorkController::class,"index"])->name('portfolio.works');
+Route::get('works',[WorkController::class,"index"])->name('portfolio.works');
 
-Route::get('/trabalhos/{work:slug}',array(WorkController::class,"show"))->name('portfolio.work');
+Route::get('/works/{work:slug}',array(WorkController::class,"show"))->name('portfolio.work');
 
-Route::get('/sobre',function (){
+Route::get('/about',function (){
     return Inertia::render('AboutPage');
 })->name('portfolio.about');
 
-Route::get('/curriculo',function (){
+Route::get('/resume',function (){
     return Inertia::render('CurriculumPage');
 })->name('portfolio.curriculum');

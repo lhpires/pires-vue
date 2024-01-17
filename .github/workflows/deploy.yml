@@ -24,6 +24,9 @@ jobs:
     
     - name: enabling NPM
       run: source ~/.bashrc
+    - name: Run install task
+      run: npm install
     - name: Run build task
       run: npm run build
+      
     
