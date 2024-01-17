@@ -1,7 +1,9 @@
 import { defineConfig } from 'vite';
 import vue from "@vitejs/plugin-vue";
 import laravel from 'laravel-vite-plugin';
-import path from 'path';
+import { resolve } from 'path'
+
+const projectRootDir = resolve(__dirname);
 
 export default defineConfig({
     plugins: [
@@ -13,7 +15,7 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            'ziggy-js': path.resolve('vendor/tightenco/ziggy'),
+            'ziggy-js': resolve(projectRootDir, 'vendor/tightenco/ziggy'),
         },
     },
 });

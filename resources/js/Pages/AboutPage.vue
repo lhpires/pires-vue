@@ -7,7 +7,7 @@
 
             <div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">            
                 <div class="w-full sm:w-1/4 mb-7 sm:mb-0">
-                    <img src="https://www.pires.dev.br/images/lhpires.png" class="rounded-xl w-96 mx-auto" alt="Imagem Dev Lucas Pires"/>
+                    <img :src="imgPires" class="rounded-xl w-96 mx-auto" alt="Imagem Dev Lucas Pires"/>
                 </div>
 
                 <div class="w-full sm:w-3/4 text-left text-black dark:text-white">
@@ -49,6 +49,7 @@
 import { Head } from '@inertiajs/vue3';
 import App from './components/App.vue';
 import { Code } from 'lucide-vue-next';
+import imgPires from '../../docs/lhpires.png'
 
 </script>
 
