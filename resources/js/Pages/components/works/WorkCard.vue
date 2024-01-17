@@ -1,5 +1,5 @@
 <template>
-    <Link :href="$page.props.appUrl + '/trabalhos/' + project.slug" class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
+    <Link :href="$page.props.appUrl + '/works/' + project.slug" class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
         <picture class="block p-14 dark:bg-white">
             <img :src="$page.props.appUrl + '/images/' + project.logo" :alt="project.title" class="border-none"/>
         </picture>

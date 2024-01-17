@@ -26,6 +26,8 @@ jobs:
       run: source ~/.bashrc
     - name: Run install task
       run: npm install
+    - name: Run update task
+      run: npm update
     - name: Run build task
       run: npm run build
       
