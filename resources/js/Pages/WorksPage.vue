@@ -1,21 +1,12 @@
 <template>
-
     <Head>
         <title>All My Works</title>
     </Head>
-
-    <App>
-        
-        <div class="container mx-auto">
-            
+    <App>       
+        <div class="container mx-auto">            
             <WorkGrid title="Selected work I've taken on in the past." :projects="works"/>
-            
-
         </div>
-
-
     </App>
-
 </template>
 <script setup>
 import { reactive,defineProps } from 'vue';
@@ -28,9 +19,4 @@ const props = defineProps({
         type: Array
     }
 });
-
-const worksReactive = reactive({
-    works: props.works
-});
-
 </script>

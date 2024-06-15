@@ -15,7 +15,7 @@
                             <a href="mailto:lucas@pires.dev.br" target="_blank" rel="noopener noreferrer">lucas@pires.dev.br</a>
                         </li>
                         <li>
-                            <a href="tel:5511984118164" target="_blank" rel="noopener noreferrer">(11) 98411-8164</a>
+                            <a href="tel:5511956486962" target="_blank" rel="noopener noreferrer">(11) 95648-6962</a>
                         </li>
                         <li>
                             São Paulo - SP
@@ -45,6 +45,9 @@
                                 LARAVEL <span>• • • • •</span>
                             </li>
                             <li>
+                                REACT <span>• • • • •</span>
+                            </li>
+                            <li>
                                 COMPOSER <span>• • • • •</span>
                             </li>
                             <li>
@@ -57,6 +60,7 @@
                                 VUE JS <span>• • •</span>
                             </li>
                         </ul>
+                        
                         <h4 class="title-curriculo">API Integrations</h4>
                         <ul>
                             <li>
@@ -99,6 +103,24 @@
                         <div class="col-12 mt-5 mb-5">
                             <h4 class="title-curriculo">Work Experience</h4>
                         </div>
+                        <article class="curriculo-empresa-card">
+                            <h5>Elev Tecnologia</h5>
+                            <div class="empresa-card-cargo">
+                                <h6>FULL STACK WEB DEVELOPER <small>February 2024 – Present</small></h6>
+                                <p>Responsible for developing solutions, applying best programming practices and design patterns, ensuring maximum efficiency, scalability, and maintainability of the code, and contributing to the quality of projects. Collaborate with the team to implement continuous improvements, promoting an agile development environment.</p>
+                                <br>
+                                <p><strong>Technical Skills</strong></p>
+                                <ul>
+                                    <li>Clean Architeture</li>
+                                    <li>React</li>
+                                    <li>PostgreSQL</li>
+                                    <li>PHP · Laravel</li>
+                                    <li>Application Programming Interface (API), REST;</li>
+                                    <li>Software testing · PHPUnit</li>
+                                    <li>Software testing · Jest</li>
+                                </ul>
+                            </div>
+                        </article>
                         <article class="curriculo-empresa-card">
                             <h5>Visual Ecommerce</h5>
                             <div class="empresa-card-cargo">

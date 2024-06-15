@@ -3,7 +3,7 @@ export const socialLinks = [
 		id: 1,
 		name: 'Portifólio',
 		icon: 'globe',
-		url: 'https://www.pires.dev.br/',
+		url: 'https://www.pt.pires.dev.br/',
 	},
 	{
 		id: 2,

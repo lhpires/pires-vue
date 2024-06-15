@@ -57,4 +57,4 @@ console.log(`⬜⬜⬜⬜⬜⬜⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜
 ⬜⬜⬜⬜⬜⬜⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜`);
 
 console.log('Linkedin: %o', 'https://www.linkedin.com/in/lhpires/');
-console.log('Portifólio V1: %o', 'https://www.pires.dev.br');
+console.log('Portifólio V1: %o', 'https://www.pt.pires.dev.br');

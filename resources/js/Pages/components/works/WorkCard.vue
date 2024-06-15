@@ -12,17 +12,11 @@
     </Link>
 </template>
 <script setup>
-import { defineProps,onMounted } from 'vue';
+import { defineProps } from 'vue';
 
 const props = defineProps({
     project: {
         type: Object
     }
 });
-
-
-onMounted( () => {
-    
-});
-
 </script>

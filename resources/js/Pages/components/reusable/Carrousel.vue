@@ -3,7 +3,7 @@
       <Carousel ref="myCarousel" :itemsToShow="1.2" :wrapAround="true" :transition="500">
         <Slide v-for="photo in photos.content" :key="photo.id">
           <div class="carousel__item">
-            <img class="py-10" :src="$page.props.appUrl + '/images/' + photo.url_photo" :alt="photo.alt" :title="photo.title">
+            <img class="py-10" :src="$page.props.appUrl + '/images/' + photo.url_photo" :alt="photo.alt_english" :title="photo.title_english">
           </div>
         </Slide>
         <template #addons>

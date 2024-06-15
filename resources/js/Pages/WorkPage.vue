@@ -16,7 +16,7 @@
                     <CarrouselVue :photos="photos"/>
                 </picture>
                 
-                <article v-html="work.description" class="mt-24 dark:text-white"></article>
+                <article v-html="work.description_english" class="mt-24 dark:text-white"></article>
                 
             </section>
           
