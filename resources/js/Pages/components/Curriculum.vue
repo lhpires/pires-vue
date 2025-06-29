@@ -5,7 +5,7 @@
     <div class="container mx-auto">
         <section id="pag-curriculum">
             <div class="superior-curriculo mb-3">
-                <h3 class="text-pires-color dark:text-primary-light">Web Developer</h3>
+                <h3 class="text-pires-color dark:text-primary-light">DEVELOPER</h3>
             </div>
             <main class="main-curriculo bg-pires-color dark:bg-blue-950">
                 <span class="meu-nome">Lucas Henrique Pires da Silva</span>
@@ -27,7 +27,7 @@
                 <aside class="sobre-formacao-habilidades">
                     <article>
                         <h4 class="title-curriculo">About me</h4>
-                        <p>I am an experienced and passionate web developer, specializing in PHP, with over 3 years of hands-on experience. I have been involved in various projects throughout my career, ranging from e-commerce websites to portals for large corporations.</p>
+                        <p>I am a Programmer/Developer with over 5 years of experience, specializing in the development of efficient and scalable solutions. Throughout my career, I have contributed to a variety of projects, ranging from e-commerce platforms to largescale corporate portals.</p>
                     </article>
                     <article>
                         <h4 class="title-curriculo">Academic Background</h4>
@@ -43,6 +43,21 @@
                             </li>
                             <li>
                                 LARAVEL <span>• • • • •</span>
+                            </li>
+                            <li>
+                                C#/.NET <span>• • • • •</span>
+                            </li>
+                            <li>
+                                DOCKER <span>• • • • •</span>
+                            </li>
+                            <li>
+                                AWS <span>• • •</span>
+                            </li>
+                            <li>
+                                C# WINDOWS FORMS <span>• • •</span>
+                            </li>
+                            <li>
+                                SQL SERVER/MYSQL/POSTGRE <span>• • • • •</span>
                             </li>
                             <li>
                                 REACT <span>• • • • •</span>
@@ -64,6 +79,9 @@
                         <h4 class="title-curriculo">API Integrations</h4>
                         <ul>
                             <li>
+                                Brazilian Stock Exchange (B3) <span>• • • • •</span>
+                            </li>
+                            <li>
                                 Mercado Livre <span>• • • • •</span>
                             </li>
                             <li>
@@ -79,7 +97,7 @@
                                 Banco do Brasil <span>• • • • •</span>
                             </li>
                             <li>
-                                Bling Erp <span>• • • • •</span>
+                                Bling ERP <span>• • • • •</span>
                             </li>
                         </ul>
                     </article>
@@ -104,9 +122,31 @@
                             <h4 class="title-curriculo">Work Experience</h4>
                         </div>
                         <article class="curriculo-empresa-card">
+                            <h5>BTG Pactual – Brazilian Investment Bank</h5>
+                            <div class="empresa-card-cargo">
+                                <h6>Software Developer <small>January 2025 – Present</small></h6>
+                                <p>Work in the <span class="text-pires-color">Equities Back Office area</span>, focusing on the maintenance and evolution of critical business systems.<br>Responsible for developing new features while applying best programming practices, using technologies such as C# and DevExpress.</p>
+                                <br>
+                                <p><strong>Among the projects, notable highlights include:</strong></p>
+                                <p> - A pre-match operations system that contributed to the automation and increased efficiency of the order reconciliation process between counterparties and custody.</p>
+                                <p> - A share certificate management module (UNITS,BDR’S), enabling precise administration and control of composite assets.</p>
+                                <p><strong>Technical Skills</strong></p>
+                                <br>
+                                <ul>
+                                    <li>Clean Architeture</li>
+                                    <li>Hexagonal Architecture</li>
+                                    <li>Sql Server / Procs / Triggers</li>
+                                    <li>Query Tunning</li>
+                                    <li>C#</li>
+                                    <li>.NET</li>
+                                    <li>C# : Windows Forms - DevExpress</li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="curriculo-empresa-card">
                             <h5>Elev Tecnologia</h5>
                             <div class="empresa-card-cargo">
-                                <h6>FULL STACK WEB DEVELOPER <small>February 2024 – Present</small></h6>
+                                <h6>FULL STACK WEB DEVELOPER <small>February 2024 – January 2025</small></h6>
                                 <p>Responsible for developing solutions, applying best programming practices and design patterns, ensuring maximum efficiency, scalability, and maintainability of the code, and contributing to the quality of projects. Collaborate with the team to implement continuous improvements, promoting an agile development environment.</p>
                                 <br>
                                 <p><strong>Technical Skills</strong></p>

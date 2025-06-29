@@ -6,8 +6,7 @@
 				LUCAS PIRES
 			</h1>
 			<p class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400">
-				A Full-Stack Developer <br>
-                In love with <strong class="text-pires-color dark:text-inherit">LIVT</strong>
+				A Full-Stack Developer
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
@@ -29,7 +28,7 @@
 <script setup>
 import { onMounted,onUpdated } from 'vue';
 import { Download } from 'lucide-vue-next';
-import DocResume from "../../../../docs/MinhaApresentacao.pdf";
+import DocResume from "../../../../docs/LHPIRES-EN.pdf";
 
 
 onMounted( () => {

@@ -12,8 +12,8 @@
 
                 <div class="w-full sm:w-3/4 text-left text-black dark:text-white">
                     <header class="text-center sm:text-left text-pires-color dark:text-white">
-                        <h4 class="font-bold text-2xl mb-2">Web Developer</h4>
-                        <p class="font-medium">PHP | LARAVEL | VUE &lt;3</p>
+                        <h4 class="font-bold text-2xl mb-2">Developer</h4>
+                        <p class="font-medium">PHP | LARAVEL | VUE | C# | .NET &lt;3</p>
                     </header>
                     <main class="mt-7 space-y-5">
                         <article>
@@ -23,7 +23,7 @@
 
                         <article>
                             <p>
-                                A special passion for PHP with a solid experience in this language, I am always seeking to learn and evolve. I am eager to take on new challenges and contribute to innovative projects.
+                                With solid experience in PHP and ongoing work in the C# ecosystem, I am constantly seeking to learn, improve, and deliver high-quality results. I am motivated by new challenges and committed to contributing to innovative and impactful projects.
                             </p>
                         </article>
 
@@ -34,10 +34,10 @@
                             <p>Security and data integrity come first.</p>
                         </article>
 
-                        <article>
+                        <!-- <article>
                             <h2 class="font-bold text-pires-color dark:text-secondary-light">Integrations</h2>
                             <p>I have extensive experience with various APIs in the E-commerce market, covering major national and international marketplaces to payment integrations with leading industry intermediaries. My expertise includes the efficient implementation of solutions that enhance connectivity and performance in online commercial environments.</p>
-                        </article>
+                        </article> -->
                     </main>             
                 </div>
             </div>

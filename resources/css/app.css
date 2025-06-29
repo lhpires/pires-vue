@@ -20,6 +20,7 @@
     width: fit-content;
     font-size: 1.4rem;
     font-weight: bold;
+    margin-top: 3rem;
 }
 
 #pag-curriculum h4.title-curriculo:after,#pag-curriculum .title-curriculo.h4:after {
