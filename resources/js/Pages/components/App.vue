@@ -29,10 +29,6 @@ let snowAnimationFrame = null
 let snowWidth = 0
 let snowHeight = 0
 let snowflakes = []
-let lastCursorTime = 0
-
-const cursorSymbols = ['❄️', '✨', '⭐']
-const cursorElements = new Set()
 
 const createSnowflakes = () => {
     const count = Math.min(180, Math.max(70, Math.round((snowWidth * snowHeight) / 12000)))
@@ -90,26 +86,6 @@ const drawSnow = () => {
     snowAnimationFrame = requestAnimationFrame(drawSnow)
 }
 
-const handleCursorTrail = (event) => {
-    const now = Date.now()
-    if (now - lastCursorTime < 45) return
-    lastCursorTime = now
-
-    const symbol = document.createElement('span')
-    symbol.className = 'cursor-star'
-    symbol.textContent = cursorSymbols[Math.floor(Math.random() * cursorSymbols.length)]
-    symbol.style.left = `${event.clientX}px`
-    symbol.style.top = `${event.clientY}px`
-
-    cursorElements.add(symbol)
-    document.body.appendChild(symbol)
-
-    window.setTimeout(() => {
-        symbol.remove()
-        cursorElements.delete(symbol)
-    }, 800)
-}
-
 onMounted(() => {
     feather.replace()
 
@@ -119,7 +95,6 @@ onMounted(() => {
         resizeSnow()
         drawSnow()
         window.addEventListener('resize', resizeSnow)
-        window.addEventListener('mousemove', handleCursorTrail, { passive: true })
     }
 })
 
@@ -131,10 +106,6 @@ onBeforeUnmount(() => {
     if (snowAnimationFrame) cancelAnimationFrame(snowAnimationFrame)
 
     window.removeEventListener('resize', resizeSnow)
-    window.removeEventListener('mousemove', handleCursorTrail)
-
-    for (const symbol of cursorElements) symbol.remove()
-    cursorElements.clear()
 })
 </script>
 
@@ -144,24 +115,5 @@ onBeforeUnmount(() => {
     inset: 0;
     z-index: 5;
     pointer-events: none;
-}
-
-:global(.cursor-star) {
-    position: fixed;
-    z-index: 9999;
-    pointer-events: none;
-    font-size: 14px;
-    animation: fall-and-fade 0.8s linear forwards;
-}
-
-@keyframes fall-and-fade {
-    0% {
-        opacity: 1;
-        transform: translate(-50%, -50%) scale(1) rotate(0deg);
-    }
-    100% {
-        opacity: 0;
-        transform: translate(-50%, 25px) scale(0.3) rotate(90deg);
-    }
 }
 </style>
