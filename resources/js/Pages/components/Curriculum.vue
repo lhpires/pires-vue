@@ -27,7 +27,7 @@
                 <aside class="sobre-formacao-habilidades">
                     <article>
                         <h4 class="title-curriculo">About me</h4>
-                        <p>I am a Programmer/Developer with over 5 years of experience, specializing in the development of efficient and scalable solutions. Throughout my career, I have contributed to a variety of projects, ranging from e-commerce platforms to largescale corporate portals.</p>
+                        <p>I am a Programmer/Developer with over 7 years of experience, specializing in the development of efficient and scalable solutions. Throughout my career, I have contributed to a variety of projects, ranging from e-commerce platforms to largescale corporate portals.</p>
                     </article>
                     <article>
                         <h4 class="title-curriculo">Academic Background</h4>
@@ -125,7 +125,7 @@
                             <h5>BTG Pactual – Brazilian Investment Bank</h5>
                             <div class="empresa-card-cargo">
                                 <h6>Software Developer <small>January 2025 – Present</small></h6>
-                                <p>Work in the <span class="text-pires-color">Equities Back Office area</span>, focusing on the maintenance and evolution of critical business systems.<br>Responsible for developing new features while applying best programming practices, using technologies such as C# and DevExpress.</p>
+                                <p>Work in the <span class="text-pires-color">Equities/Derivatives</span> Back Office area, focusing on the maintenance and evolution of critical business systems.<br>Responsible for developing new features while applying best programming practices, using technologies such as C# and DevExpress.</p>
                                 <br>
                                 <p><strong>Among the projects, notable highlights include:</strong></p>
                                 <p> - A pre-match operations system that contributed to the automation and increased efficiency of the order reconciliation process between counterparties and custody.</p>

@@ -6,7 +6,16 @@
             <div class="flex justify-between items-center px-4 sm:px-0">
                 <!-- Header logos -->
                 <div>
-                    <Link :href="$route('portfolio.homeSweetHome')" class="font-bold block text-left text-3xl text-pires-color hover:opacity-90 transition-opacity duration-200 ease-in-out dark:text-ternary-light sm:mx-4 mb-2 sm:py-2">LHPIRES</Link>
+                    <Link :href="$route('portfolio.homeSweetHome')" class="santa-logo font-bold block relative text-left text-3xl text-pires-color hover:opacity-90 transition-opacity duration-200 ease-in-out dark:text-ternary-light sm:mx-4 mb-2 sm:py-2">
+                        LHPIRES
+                        <img
+                            v-if="holidayThemeActive"
+                            :src="santaHatUrl"
+                            alt=""
+                            aria-hidden="true"
+                            class="santa-hat"
+                        />
+                    </Link>
                 </div>
             </div>
 
@@ -36,9 +45,12 @@ import feather from 'feather-icons';
 import HeaderLinks from "./HeaderLinks.vue";
 import XMobile from "../reusable/XMobile.vue";
 import ThemeComponent from "../Theme.vue";
+import { isHolidayThemeActive } from '../../../config/holidayTheme.js';
 
 
 const theme = ref('');
+const santaHatUrl = '/images/natal/chapeu-noel.png';
+const holidayThemeActive = isHolidayThemeActive();
 
 const updateTheme = (newTheme) => {
     theme.value = newTheme;
@@ -60,3 +72,28 @@ onUpdated( () => {
 
 
 </script>
+
+<style scoped>
+.santa-logo {
+    width: fit-content;
+}
+
+.santa-hat {
+    position: absolute;
+    width: 1.95rem;
+    height: auto;
+    left: -0.9rem;
+    top: -0.25rem;
+    transform: rotate(-11deg);
+    pointer-events: none;
+    object-fit: contain;
+}
+
+@media (min-width: 640px) {
+    .santa-hat {
+        width: 2.25rem;
+        left: -1.277rem;
+        top: -0.177rem;
+    }
+}
+</style>
